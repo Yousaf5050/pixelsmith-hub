@@ -30,9 +30,17 @@
     --muted: 215 15% 96%;
     --muted-foreground: 215 15% 45%;
 
-    /* Accent - Electric Blue */
-    --accent: 200 100% 50%;
+    /* Accent - Electric Cyan */
+    --accent: 185 100% 45%;
     --accent-foreground: 0 0% 98%;
+
+    /* Developer Theme Colors */
+    --dev-primary: 220 90% 8%;
+    --dev-secondary: 215 30% 12%;
+    --dev-cyan: 185 100% 45%;
+    --dev-neon: 180 100% 50%;
+    --dev-purple: 270 100% 80%;
+    --dev-green: 140 100% 50%;
 
     /* Agency Specific Colors */
     --agency-blue: 220 90% 15%;
@@ -40,16 +48,19 @@
     --agency-gray: 215 15% 25%;
     --agency-light: 215 20% 98%;
 
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(220 90% 15%), hsl(215 85% 25%), hsl(185 100% 45%));
+    /* Tech-focused Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(220 90% 8%) 0%, hsl(215 85% 12%) 35%, hsl(185 100% 15%) 100%);
+    --gradient-tech: linear-gradient(45deg, hsl(220 90% 8%), hsl(185 100% 15%), hsl(180 100% 20%));
+    --gradient-neon: linear-gradient(90deg, hsl(185 100% 45%), hsl(180 100% 50%));
     --gradient-accent: linear-gradient(90deg, hsl(200 100% 50%), hsl(185 100% 45%));
     --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(215 20% 98%));
     
-    /* Shadows */
+    /* Enhanced Shadows with Glow */
     --shadow-soft: 0 4px 20px hsl(215 15% 45% / 0.1);
     --shadow-medium: 0 8px 30px hsl(215 15% 45% / 0.15);
     --shadow-strong: 0 15px 50px hsl(215 15% 45% / 0.2);
-    --shadow-glow: 0 0 40px hsl(200 100% 50% / 0.3);
+    --shadow-glow: 0 0 40px hsl(185 100% 45% / 0.4);
+    --shadow-neon: 0 0 60px hsl(185 100% 45% / 0.6);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -82,44 +93,55 @@
   }
 
   .dark {
-    /* Dark Mode - Deep Navy Theme */
-    --background: 215 45% 6%;
+    /* Dark Mode - Developer Theme */
+    --background: 220 90% 4%;
     --foreground: 0 0% 95%;
 
-    --card: 215 40% 8%;
+    --card: 220 90% 6%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 215 40% 8%;
+    --popover: 220 90% 6%;
     --popover-foreground: 0 0% 95%;
 
     --primary: 0 0% 98%;
-    --primary-foreground: 215 45% 8%;
+    --primary-foreground: 220 90% 4%;
 
-    --secondary: 215 30% 12%;
+    --secondary: 215 30% 10%;
     --secondary-foreground: 0 0% 95%;
 
-    --muted: 215 30% 12%;
+    --muted: 215 30% 8%;
     --muted-foreground: 215 15% 65%;
 
-    --accent: 185 100% 45%;
-    --accent-foreground: 215 45% 8%;
+    --accent: 185 100% 50%;
+    --accent-foreground: 220 90% 4%;
+
+    /* Dark Developer Colors */
+    --dev-primary: 220 90% 4%;
+    --dev-secondary: 215 30% 8%;
+    --dev-cyan: 185 100% 50%;
+    --dev-neon: 180 100% 60%;
+    --dev-purple: 270 100% 85%;
+    --dev-green: 140 100% 60%;
 
     /* Dark Agency Colors */
-    --agency-blue: 220 90% 20%;
+    --agency-blue: 220 90% 15%;
     --agency-cyan: 185 100% 50%;
     --agency-gray: 215 15% 75%;
-    --agency-light: 215 30% 10%;
+    --agency-light: 215 30% 8%;
 
-    /* Dark Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(215 45% 6%), hsl(220 90% 12%), hsl(185 100% 15%));
-    --gradient-accent: linear-gradient(90deg, hsl(185 100% 45%), hsl(200 100% 50%));
-    --gradient-card: linear-gradient(145deg, hsl(215 40% 8%), hsl(215 35% 10%));
+    /* Dark Tech Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(220 90% 4%) 0%, hsl(215 85% 8%) 35%, hsl(185 100% 12%) 100%);
+    --gradient-tech: linear-gradient(45deg, hsl(220 90% 4%), hsl(185 100% 12%), hsl(180 100% 15%));
+    --gradient-neon: linear-gradient(90deg, hsl(185 100% 50%), hsl(180 100% 60%));
+    --gradient-accent: linear-gradient(90deg, hsl(185 100% 50%), hsl(200 100% 55%));
+    --gradient-card: linear-gradient(145deg, hsl(220 90% 6%), hsl(215 35% 8%));
 
-    /* Dark Shadows */
-    --shadow-soft: 0 4px 20px hsl(215 45% 3% / 0.3);
-    --shadow-medium: 0 8px 30px hsl(215 45% 3% / 0.4);
-    --shadow-strong: 0 15px 50px hsl(215 45% 3% / 0.5);
-    --shadow-glow: 0 0 40px hsl(185 100% 45% / 0.4);
+    /* Enhanced Dark Shadows */
+    --shadow-soft: 0 4px 20px hsl(220 90% 2% / 0.4);
+    --shadow-medium: 0 8px 30px hsl(220 90% 2% / 0.5);
+    --shadow-strong: 0 15px 50px hsl(220 90% 2% / 0.6);
+    --shadow-glow: 0 0 50px hsl(185 100% 50% / 0.5);
+    --shadow-neon: 0 0 80px hsl(185 100% 50% / 0.7);
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 210 40% 98%;
@@ -172,13 +194,13 @@
 }
 
 @layer components {
-  /* Agency Button Variants */
+  /* Developer Agency Button Variants */
   .btn-hero {
-    @apply bg-gradient-to-r from-accent to-agency-cyan text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:shadow-glow transition-all duration-300 hover:scale-105;
+    @apply bg-gradient-neon text-white font-bold px-8 py-4 rounded-xl shadow-glow hover:shadow-neon transition-all duration-300 hover:scale-105 border border-dev-cyan/30;
   }
 
   .btn-outline-hero {
-    @apply border-2 border-accent text-accent hover:bg-accent hover:text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105;
+    @apply border-2 border-dev-cyan/60 text-dev-cyan hover:bg-dev-cyan/10 hover:border-dev-cyan font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 backdrop-blur-sm;
   }
 
   .btn-agency {
@@ -196,7 +218,12 @@
 
   /* Text Gradients */
   .text-gradient {
-    @apply bg-gradient-to-r from-accent to-agency-cyan bg-clip-text text-transparent;
+    @apply bg-gradient-neon bg-clip-text text-transparent;
+  }
+
+  .text-neon {
+    @apply text-dev-cyan;
+    text-shadow: 0 0 10px hsl(var(--dev-cyan) / 0.5);
   }
 
   /* Section Spacing */

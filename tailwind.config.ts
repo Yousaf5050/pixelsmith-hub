@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Developer Theme Colors
+        "dev-primary": "hsl(var(--dev-primary))",
+        "dev-secondary": "hsl(var(--dev-secondary))",
+        "dev-cyan": "hsl(var(--dev-cyan))",
+        "dev-neon": "hsl(var(--dev-neon))",
+        "dev-purple": "hsl(var(--dev-purple))",
+        "dev-green": "hsl(var(--dev-green))",
         // Agency Specific Colors
         "agency-blue": "hsl(var(--agency-blue))",
         "agency-cyan": "hsl(var(--agency-cyan))",
@@ -70,6 +77,8 @@ export default {
       },
       backgroundImage: {
         "gradient-hero": "var(--gradient-hero)",
+        "gradient-tech": "var(--gradient-tech)",
+        "gradient-neon": "var(--gradient-neon)",
         "gradient-accent": "var(--gradient-accent)",
         "gradient-card": "var(--gradient-card)",
       },
@@ -78,6 +87,7 @@ export default {
         "medium": "var(--shadow-medium)",
         "strong": "var(--shadow-strong)",
         "glow": "var(--shadow-glow)",
+        "neon": "var(--shadow-neon)",
       },
       transitionTimingFunction: {
         "smooth": "var(--transition-smooth)",
@@ -85,6 +95,7 @@ export default {
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],
+        mono: ["JetBrains Mono", "Fira Code", "Consolas", "monospace"],
       },
       keyframes: {
         "accordion-down": {
