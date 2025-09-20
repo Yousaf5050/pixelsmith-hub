@@ -93,7 +93,7 @@ const Hero = () => {
             className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight"
           >
             <span className="font-mono text-dev-cyan">&lt;</span>
-            WordPress & TypeScript
+            Kaizen Script
             <br />
             <span className="text-gradient font-mono">Developer Agency</span>
             <span className="font-mono text-dev-cyan">/&gt;</span>

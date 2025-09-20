@@ -195,16 +195,7 @@ const Portfolio = () => {
         </motion.div>
 
         {/* View More Button */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ delay: 0.8, duration: 0.6 }}
-          className="text-center mt-12"
-        >
-          <Button className="btn-agency">
-            View All Projects
-          </Button>
-        </motion.div>
+        
       </div>
     </section>
   );

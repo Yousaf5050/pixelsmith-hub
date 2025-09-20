@@ -80,6 +80,19 @@
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
-    "vite": "^5.4.19"
-  }
+    "vite": "^5.4.20"
+  },
+  "description": "**URL**: https://lovable.dev/projects/0579175d-93bd-4ce1-9748-c7222d33c119",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yousaf5050/pixelsmith-hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yousaf5050/pixelsmith-hub/issues"
+  },
+  "homepage": "https://github.com/Yousaf5050/pixelsmith-hub#readme"
 }

@@ -15,43 +15,43 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Sarah Johnson',
-      role: 'CEO, TechStart Inc.',
-      content: 'The team delivered an exceptional WordPress site that perfectly captures our brand. The performance improvements were remarkable - our conversion rate increased by 40%.',
+      name: 'Ayesha Khan',
+      role: 'CEO, TechVerse Solutions',
+      content: 'Kaizen Script delivered an exceptional WordPress site that perfectly captured our brand identity. The performance boost was impressive — our leads increased by 45%.',
       rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b367?w=100&h=100&fit=crop&crop=face'
+      avatar: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=100&h=100&fit=crop&crop=face'
     },
     {
       id: 2,
-      name: 'Michael Chen',
-      role: 'Founder, E-Commerce Plus',
-      content: 'Outstanding custom development work. They built our entire e-commerce platform from scratch with React and TypeScript. Clean code, great performance, excellent communication.',
+      name: 'Hassan Raza',
+      role: 'Founder, ShopSphere.pk',
+      content: 'Outstanding development work. They built our entire e-commerce platform with React and TypeScript. The site is fast, scalable, and their communication was top-notch.',
       rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face'
+      avatar: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?w=100&h=100&fit=crop&crop=face'
     },
     {
       id: 3,
-      name: 'Emma Rodriguez',
-      role: 'Marketing Director, GrowthCo',
-      content: 'Professional, responsive, and delivered exactly what we needed. Our new landing page converts 3x better than our previous one. Highly recommend their services.',
+      name: 'Maria Ali',
+      role: 'Marketing Head, GrowthHub Lahore',
+      content: 'Professional, responsive, and delivered exactly what we needed. Our new landing page now converts 3x better than before. Highly recommended!',
       rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face'
+      avatar: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=100&h=100&fit=crop&crop=face'
     },
     {
       id: 4,
-      name: 'David Kim',
-      role: 'CTO, InnovateLab',
-      content: 'Exceptional technical expertise and attention to detail. They modernized our legacy WordPress site with advanced features while maintaining perfect SEO performance.',
+      name: 'Bilal Ahmed',
+      role: 'CTO, Innovators Karachi',
+      content: 'Exceptional technical expertise and attention to detail. They modernized our legacy WordPress site with advanced features while keeping SEO performance intact.',
       rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face'
+      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face'
     },
     {
       id: 5,
-      name: 'Lisa Park',
-      role: 'Owner, Creative Studio',
-      content: 'Amazing work on our portfolio website. The animations and interactions are smooth, and the performance is outstanding. Our client inquiries doubled after launch.',
+      name: 'Sana Farooq',
+      role: 'Owner, CreativeNest Studio',
+      content: 'Amazing work on our portfolio site. The animations are smooth, the design is elegant, and our client inquiries doubled after launch.',
       rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop&crop=face'
+      avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face '
     }
   ];
 

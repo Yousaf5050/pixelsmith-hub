@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Code, Zap, Users, Award } from 'lucide-react';
-import developerAvatar from '@/assets/developer-avatar.jpg';
+import teamAvatar from '@/assets/developer-avatar.jpg'; // replace with your actual group/team picture
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -10,30 +10,30 @@ const About = () => {
   });
 
   const skills = [
-    'WordPress', 'Elementor', 'WooCommerce', 'TypeScript', 
+    'WordPress', 'Elementor', 'WooCommerce', 'TypeScript',
     'React', 'Next.js', 'Tailwind CSS', 'Node.js'
   ];
 
   const highlights = [
     {
       icon: Code,
-      title: 'Modern Development',
-      description: 'Cutting-edge technologies and best practices for every project.'
+      title: 'Tech-Driven',
+      description: 'Blending creativity with code to deliver impactful solutions.'
     },
     {
       icon: Zap,
-      title: 'Fast Delivery',
-      description: 'Rapid development cycles without compromising on quality.'
+      title: 'Agile Execution',
+      description: 'Fast iterations and quick turnarounds while maintaining quality.'
     },
     {
       icon: Users,
-      title: 'Client-Focused',
-      description: 'Collaborative approach ensuring your vision becomes reality.'
+      title: 'Collaborative Spirit',
+      description: 'Three minds, one vision — leveraging teamwork to scale ideas.'
     },
     {
       icon: Award,
-      title: 'Quality Assured',
-      description: 'Thorough testing and optimization for peak performance.'
+      title: 'Excellence from NUST',
+      description: 'Built on the strong foundation of innovation and discipline at NUST.'
     }
   ];
 
@@ -55,19 +55,20 @@ const About = () => {
               transition={{ delay: 0.2, duration: 0.8 }}
             >
               <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                We design and develop
-                <span className="text-gradient block">websites that convert</span>
+                We are <span className="text-gradient">Kaizen Script</span>
               </h2>
               
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Our agency combines the flexibility of WordPress with the power of modern 
-                TypeScript development. We create custom solutions that scale with your 
-                business, from simple landing pages to complex e-commerce platforms.
+                A group of three passionate developers from <strong>NUST</strong>, 
+                Kaizen Script brings together design thinking, technical mastery, 
+                and problem-solving to create modern, conversion-focused websites 
+                and digital solutions.
               </p>
 
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                With expertise in both content management systems and custom web applications, 
-                we deliver the perfect solution for your unique requirements.
+                From WordPress-powered business websites to full-stack React 
+                applications, we combine creativity and technical expertise to help 
+                your brand thrive in the digital space.
               </p>
 
               {/* Skills */}
@@ -100,8 +101,8 @@ const About = () => {
             >
               <div className="relative z-10">
                 <img
-                  src={developerAvatar}
-                  alt="Professional Developer"
+                  src={teamAvatar}
+                  alt="Kaizen Script Team"
                   className="w-80 h-80 rounded-2xl object-cover mx-auto shadow-strong"
                 />
                 
@@ -112,8 +113,8 @@ const About = () => {
                   transition={{ delay: 0.6, duration: 0.8 }}
                   className="absolute -bottom-6 -right-6 bg-card border border-border rounded-xl p-6 shadow-medium"
                 >
-                  <div className="text-3xl font-bold text-accent mb-1">5+</div>
-                  <div className="text-sm text-muted-foreground">Years Experience</div>
+                  <div className="text-3xl font-bold text-accent mb-1">3</div>
+                  <div className="text-sm text-muted-foreground">Innovators from NUST</div>
                 </motion.div>
               </div>
 

@@ -13,7 +13,7 @@ const Pricing = () => {
     {
       name: 'Starter',
       description: 'Perfect for small businesses and personal websites',
-      price: '$2,500',
+      price: 'PKR 17,000',
       period: 'Starting at',
       features: [
         'WordPress Website (Up to 5 pages)',
@@ -30,7 +30,7 @@ const Pricing = () => {
     {
       name: 'Business',
       description: 'Ideal for growing businesses and e-commerce',
-      price: '$5,500',
+      price: 'PKR 20,000',
       period: 'Starting at',
       features: [
         'Everything in Starter',
@@ -49,7 +49,7 @@ const Pricing = () => {
     {
       name: 'Premium',
       description: 'For enterprises and complex applications',
-      price: '$12,000',
+      price: 'PKR 25,000',
       period: 'Starting at',
       features: [
         'Everything in Business',
