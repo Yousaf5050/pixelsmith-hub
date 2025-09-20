@@ -150,7 +150,7 @@ const Portfolio = () => {
                   <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
                     <Button
                       size="sm"
-                      className="bg-white text-primary hover:bg-gray-100"
+                      className="bg-white text-blue-900 hover:bg-gray-100"
                       onClick={() => window.open(project.liveUrl, '_blank')}
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
