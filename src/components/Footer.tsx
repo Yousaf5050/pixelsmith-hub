@@ -128,8 +128,7 @@ const Footer = ({ brandName = 'KaizenScript', location = '' }: FooterProps) => {
                 <span>
                   © {currentYear} {brandName}.
                 </span>
-                <Heart className="w-4 h-4 text-accent mx-1" />
-                <span> {location}</span>
+                <span>{location}</span>
               </div>
 
               {/* Tagline */}
