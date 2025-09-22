@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Portfolio = () => {
@@ -21,8 +21,7 @@ const Portfolio = () => {
       description: 'Modern WooCommerce store with custom checkout flow and inventory management.',
       category: 'WordPress',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      liveUrl: 'https://ritual.microservices.site',
       tech: ['WordPress', 'WooCommerce', 'Custom CSS']
     },
     {
@@ -31,28 +30,25 @@ const Portfolio = () => {
       description: 'High-converting landing page built with React and optimized for conversions.',
       category: 'Landing Pages',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      liveUrl: 'https://rehmandentalclinic.microservices.site',
       tech: ['React', 'TypeScript', 'Tailwind']
     },
     {
       id: 3,
-      title: 'Custom CRM Dashboard',
-      description: 'Full-stack TypeScript application with real-time data and advanced analytics.',
+      title: 'Book Library & Management',
+      description: 'Custom web application for managing digital/physical books, categories, and borrowing system.',
       category: 'Custom Code',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&h=400&fit=crop', // library/books photo
+      liveUrl: 'https://cyberlib-rho.vercel.app',
       tech: ['TypeScript', 'React', 'Node.js', 'PostgreSQL']
     },
     {
       id: 4,
-      title: 'Restaurant Website',
-      description: 'Beautiful WordPress site with online ordering and reservation system.',
+      title: 'E-Commerce Book Store',
+      description: 'Beautiful online bookstore built on WordPress with smooth checkout and book catalog.',
       category: 'WordPress',
-      image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop',
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      image: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=400&fit=crop', // bookstore photo
+      liveUrl: 'https://antiquarian.vercel.app',
       tech: ['WordPress', 'Elementor', 'Custom Plugins']
     },
     {
@@ -61,8 +57,7 @@ const Portfolio = () => {
       description: 'Modern startup landing page with animated sections and lead capture.',
       category: 'Landing Pages',
       image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&h=400&fit=crop',
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      liveUrl: 'https://rehmandentalclinic.microservices.site',
       tech: ['Next.js', 'Framer Motion', 'TypeScript']
     },
     {
@@ -71,8 +66,7 @@ const Portfolio = () => {
       description: 'Custom portfolio site with advanced animations and performance optimization.',
       category: 'Custom Code',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop',
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com',
+      liveUrl: 'https://wasay-ahmad.vercel.app',
       tech: ['React', 'Three.js', 'GSAP']
     }
   ];
@@ -147,7 +141,7 @@ const Portfolio = () => {
                   />
                   
                   {/* Overlay */}
-                  <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
+                  <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <Button
                       size="sm"
                       className="bg-white text-blue-900 hover:bg-gray-100"
@@ -155,15 +149,6 @@ const Portfolio = () => {
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Site
-                    </Button>
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      className="border-white text-white hover:bg-white hover:text-primary"
-                      onClick={() => window.open(project.githubUrl, '_blank')}
-                    >
-                      <Github className="w-4 h-4 mr-2" />
-                      Code
                     </Button>
                   </div>
                 </div>
@@ -194,8 +179,6 @@ const Portfolio = () => {
           ))}
         </motion.div>
 
-        {/* View More Button */}
-        
       </div>
     </section>
   );
