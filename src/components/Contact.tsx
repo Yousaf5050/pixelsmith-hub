@@ -26,7 +26,7 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
+    // Simulated form submission
     setTimeout(() => {
       toast({
         title: "Message Sent!",
@@ -48,27 +48,27 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'hello@devstudio.com',
-      link: 'mailto:hello@devstudio.com'
+      value: 'contact@kaizen.microservices.site',
+      link: 'mailto:contact@kaizen.microservices.site'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+92 302 7907961',
+      link: 'tel:+923027907961'
     },
     {
       icon: MapPin,
       title: 'Location',
       value: 'Islamabad, Pakistan',
-      link: 'https://maps.google.com'
+      link: 'https://maps.google.com?q=Islamabad+Pakistan'
     }
   ];
 
   const socialLinks = [
-    { icon: Github, url: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, url: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Twitter, url: 'https://twitter.com', label: 'Twitter' }
+    { icon: Github, url: 'https://github.com/kaizenscript', label: 'GitHub' },
+    { icon: Linkedin, url: 'https://linkedin.com/company/kaizenscript', label: 'LinkedIn' },
+    { icon: Twitter, url: 'https://twitter.com/kaizenscript', label: 'Twitter' }
   ];
 
   return (
@@ -85,8 +85,8 @@ const Contact = () => {
             Let's Work <span className="text-gradient">Together</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to start your project? Get in touch and let's discuss how we can 
-            help bring your vision to life.
+            Ready to start your project with <strong>Kaizen Script</strong>? 
+            Get in touch and let's discuss how we can help bring your vision to life.
           </p>
         </motion.div>
 
@@ -244,8 +244,8 @@ const Contact = () => {
               <div className="h-48 bg-gradient-accent flex items-center justify-center">
                 <div className="text-white text-center">
                   <MapPin className="w-8 h-8 mx-auto mb-2" />
-                  <div className="font-medium">San Francisco, CA</div>
-                  <div className="text-sm opacity-80">Ready to meet in person</div>
+                  <div className="font-medium">Islamabad, Pakistan</div>
+                  <div className="text-sm opacity-80">Available for meetings</div>
                 </div>
               </div>
             </motion.div>
@@ -260,7 +260,7 @@ const Contact = () => {
               <h4 className="font-semibold text-foreground mb-2">Quick Response</h4>
               <p className="text-sm text-muted-foreground">
                 We typically respond to all inquiries within 24 hours. For urgent matters, 
-                feel free to call us directly.
+                feel free to call us directly at <strong>+92 302 7907961</strong>.
               </p>
             </motion.div>
           </motion.div>

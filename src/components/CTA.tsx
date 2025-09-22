@@ -51,7 +51,7 @@ const CTA = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight"
           >
-            Let's Build Something
+            Let&apos;s Build Something
             <br />
             <span className="text-gradient">Amazing Together</span>
           </motion.h2>
@@ -63,8 +63,10 @@ const CTA = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed"
           >
-            Ready to transform your digital presence? Let's discuss your project 
-            and create a solution that drives real results for your business.
+            From <strong>WordPress & Shopify websites</strong> to 
+            <strong> full-stack MERN applications</strong>, we specialize in 
+            creating digital solutions that deliver real business results.
+            Let’s bring your vision to life.
           </motion.p>
 
           {/* Benefits */}
@@ -125,16 +127,16 @@ const CTA = () => {
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-8 text-foreground">
               <a
-                href="mailto:hello@devstudio.com"
+                href="mailto:contact@kaizen.microservices.site"
                 className="hover:text-accent transition-colors font-medium"
               >
-                hello@devstudio.com
+                contact@kaizen.microservices.site
               </a>
               <a
-                href="tel:+15551234567"
+                href="tel:+923027907961"
                 className="hover:text-accent transition-colors font-medium"
               >
-                +1 (555) 123-4567
+                +92 302 790 7961
               </a>
             </div>
           </motion.div>

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Code, Zap, Users, Award } from 'lucide-react';
+import { Code, Zap, Users, Award, ShoppingCart, Mail, Phone } from 'lucide-react';
 import teamAvatar from '@/assets/developer-avatar.jpg'; // replace with your actual group/team picture
 
 const About = () => {
@@ -10,8 +10,8 @@ const About = () => {
   });
 
   const skills = [
-    'WordPress', 'Elementor', 'WooCommerce', 'TypeScript',
-    'React', 'Next.js', 'Tailwind CSS', 'Node.js'
+    'WordPress', 'Elementor', 'WooCommerce', 'Shopify',
+    'TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Node.js', 'MERN Stack'
   ];
 
   const highlights = [
@@ -26,9 +26,9 @@ const About = () => {
       description: 'Fast iterations and quick turnarounds while maintaining quality.'
     },
     {
-      icon: Users,
-      title: 'Collaborative Spirit',
-      description: 'Three minds, one vision — leveraging teamwork to scale ideas.'
+      icon: ShoppingCart,
+      title: 'E-Commerce Experts',
+      description: 'Building conversion-focused online stores with WooCommerce & Shopify.'
     },
     {
       icon: Award,
@@ -59,16 +59,17 @@ const About = () => {
               </h2>
               
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                A group of three passionate developers from <strong>NUST</strong>, 
-                Kaizen Script brings together design thinking, technical mastery, 
-                and problem-solving to create modern, conversion-focused websites 
-                and digital solutions.
+                At <strong>Kaizen Script</strong>, we craft modern, performance-driven digital 
+                experiences for businesses that want to stand out. Founded by three passionate 
+                <strong> Computer Science undergraduates from NUST</strong>, we combine academic 
+                rigor with real-world expertise to deliver impactful solutions.
               </p>
 
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                From WordPress-powered business websites to full-stack React 
-                applications, we combine creativity and technical expertise to help 
-                your brand thrive in the digital space.
+                Our expertise spans <strong>WordPress development</strong>, <strong>Shopify store 
+                creation</strong>, and <strong>MERN stack applications</strong>. Whether it’s a 
+                conversion-focused business website, a scalable e-commerce platform, or a complex 
+                web application, we turn ideas into seamless, high-performance products.
               </p>
 
               {/* Skills */}
@@ -86,6 +87,22 @@ const About = () => {
                       {skill}
                     </motion.span>
                   ))}
+                </div>
+              </div>
+
+              {/* Contact Details */}
+              <div className="mt-6 space-y-3">
+                <div className="flex items-center gap-3 text-muted-foreground">
+                  <Mail className="w-5 h-5 text-accent" />
+                  <a href="mailto:contact@kaizen.microservices.site" className="hover:underline">
+                    contact@kaizen.microservices.site
+                  </a>
+                </div>
+                <div className="flex items-center gap-3 text-muted-foreground">
+                  <Phone className="w-5 h-5 text-accent" />
+                  <a href="tel:+923027907961" className="hover:underline">
+                    +92 302 790 7961
+                  </a>
                 </div>
               </div>
             </motion.div>
