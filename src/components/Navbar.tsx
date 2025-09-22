@@ -63,7 +63,7 @@ const Navbar = () => {
             className="text-2xl font-bold text-gradient"
             whileHover={{ scale: 1.05 }}
           >
-            DevStudio
+            KaizenScript
           </motion.div>
 
           {/* Desktop Navigation */}
