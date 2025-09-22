@@ -8,7 +8,7 @@ interface FooterProps {
   location?: string;
 }
 
-const Footer = ({ brandName = 'DevStudio', location = 'Your City' }: FooterProps) => {
+const Footer = ({ brandName = 'KaizenScript', location = '' }: FooterProps) => {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -126,10 +126,10 @@ const Footer = ({ brandName = 'DevStudio', location = 'Your City' }: FooterProps
               {/* Copyright */}
               <div className="flex items-center space-x-1 text-muted-foreground text-sm">
                 <span>
-                  © {currentYear} {brandName}. Made with
+                  © {currentYear} {brandName}.
                 </span>
                 <Heart className="w-4 h-4 text-accent mx-1" />
-                <span>in {location}</span>
+                <span> {location}</span>
               </div>
 
               {/* Tagline */}
